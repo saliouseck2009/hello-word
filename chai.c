@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 int main(void)
-{
+{//modification depuis github
 	char nom[100] ;
 	/*nom[0] ='s' ;
 	nom[1] ='e' ;
@@ -13,7 +13,6 @@ int main(void)
 	printf(" votre nom est : %s",nom);*/ 
     printf(" entrer votre nom :");
     scanf("%s",nom);
-    printf("%s",nom); 
     int size = strlen (nom);
     //system("cls");
     system("cls");
